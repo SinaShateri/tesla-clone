@@ -5,6 +5,10 @@ const nextConfig = {
   experimental: {
     esmExternals: false,
   },
-}
+  images: {
+    loader: 'akamai',
+    path: '',
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
