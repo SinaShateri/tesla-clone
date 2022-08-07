@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+const motion = require('framer-motion');
 
 const Section = (props) => {
   return (
