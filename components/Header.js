@@ -14,7 +14,7 @@ const Header = ({ cycleOpen }) => {
           alt='tesla'
         />
       </div>
-      <div className='xl:block hidden'>
+      <div className='hidden xl:block'>
         <ul className='flex items-center justify-center'>
           <li>
             <a
@@ -85,7 +85,7 @@ const Header = ({ cycleOpen }) => {
               target='_blank'
               rel='noreferrer'
               href='https://shop.tesla.com'
-              className='px-1 sm:px-4 py-2 transition rounded-lg bg-blur'
+              className='px-1 py-2 transition rounded-lg sm:px-4 bg-blur'
             >
               Shop
             </a>
@@ -95,18 +95,18 @@ const Header = ({ cycleOpen }) => {
               target='_blank'
               rel='noreferrer'
               href='https://www.tesla.com/teslaaccount'
-              className='px-1 sm:px-4 py-2 transition rounded-lg bg-blur'
+              className='px-1 py-2 transition rounded-lg sm:px-4 bg-blur'
             >
               Account
             </a>
           </li>
           <li>
-            <button
-              className='px-1 sm:px-4 py-2 transition rounded-lg cursor-pointer bg-blur select-none'
+            <a
+              className='px-1 py-2 transition rounded-lg cursor-pointer select-none sm:px-4 bg-blur'
               onClick={cycleOpen}
             >
               Menu
-            </button>
+            </a>
           </li>
         </ul>
       </div>
